@@ -3,9 +3,9 @@
           $(document).ready(function(){
             const dateToday = new Date();
             const getStartDate = new Date("Mon Feb 06 2023");
-            const getEndDate = new Date("Sat Feb 25 2023");
+            const getEndDate = new Date("Tue Feb 28 2023");
             if (dateToday >= getStartDate && dateToday <= getEndDate) {
-                $('#bannerslider, #bannersliderweb, #ham-promo, #oth-slider').prepend("<li promo-value='' id='promo-hp'><b></b><span>Copy Code:</span> <span class='code-value'></span></li>");  
+                $('#bannerslider, #bannersliderweb, #ham-promo, #oth-slider').prepend("<li promo-value='PPDAY23' id='promo-hp'><b>Neki Tamo Test Text</b><span>Copy Code:</span> <span class='code-value'>PPDAY23</span></li>");  
                 $('body').addClass('hasActivePromotion');
                 $('.heroCarouselOuter.blankBanner').remove();
                 setTimeout(function() {            
