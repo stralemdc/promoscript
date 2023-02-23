@@ -3,7 +3,7 @@
           $(document).ready(function(){
             const dateToday = new Date();
             const getStartDate = new Date("Sun Feb 05 2023");
-            const getEndDate = new Date("Tue Feb 28 2023");
+            const getEndDate = new Date("Mon Feb 27 2023");
             if (dateToday >= getStartDate && dateToday <= getEndDate) {
                 $('#bannerslider, #bannersliderweb, #ham-promo, #oth-slider').prepend("<li promo-value='' id='promo-hp'><b></b><span>Copy Code:</span> <span class='code-value'></span></li>");  
                 $('body').addClass('hasActivePromotion');
