@@ -2,10 +2,10 @@
         
           $(document).ready(function(){
             const dateToday = new Date();
-            const getStartDate = new Date("Tue Feb 14 2023");
-            const getEndDate = new Date("Fri Feb 24 2023");
+            const getStartDate = new Date("Thu Feb 02 2023");
+            const getEndDate = new Date("Tue Feb 28 2023");
             if (dateToday >= getStartDate && dateToday <= getEndDate) {
-                $('#bannerslider, #bannersliderweb, #ham-promo, #oth-slider').prepend("<li promo-value='IDEGAS23' id='promo-hp'><b>U U A A TEST TEXT</b><span>Copy Code:</span> <span class='code-value'>IDEGAS23</span></li>");  
+                $('#bannerslider, #bannersliderweb, #ham-promo, #oth-slider').prepend("<li promo-value='' id='promo-hp'><b></b><span>Copy Code:</span> <span class='code-value'></span></li>");  
                 $('body').addClass('hasActivePromotion');
                 $('.heroCarouselOuter.blankBanner').remove();
                 setTimeout(function() {            
