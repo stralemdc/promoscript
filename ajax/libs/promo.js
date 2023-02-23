@@ -1,5 +1,4 @@
-
-        <script>
+        
           $(document).ready(function(){
             const dateToday = new Date();
             const getStartDate = new Date("Sun Feb 05 2023");
@@ -29,6 +28,5 @@
                     }, 3500);
                 });
             });
-          });
-        </script>
+          });       
       
